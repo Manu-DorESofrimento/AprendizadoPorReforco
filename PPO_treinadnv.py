@@ -17,7 +17,7 @@ model.set_env(env)
 model.learn(total_timesteps=200000, reset_num_timesteps=True, tb_log_name="PPO")
 
 
-model.save(f"{models_dir}/best-model")
+model.save(f"{models_dir}/model")
 
 
 
